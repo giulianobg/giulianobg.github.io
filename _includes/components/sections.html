@@ -1,0 +1,46 @@
+<div class="bs-docs-section">
+  <h1 id="sections" class="page-header">Section</h1>
+
+  <h2 id="section-default">Default section</h2>
+  <p>A Section is responsible to break content displaying a title and bring associated actions to this environment, like a list os people with buttons to add and remove.</p>
+
+  <div class="bs-example">
+    <div class="section">
+      <h2>Orders</h2>
+      <div class="section-tools">
+        <button class="btn btn-primary btn-circle"><i class="glyphicon glyphicon-plus"></i></button>
+        <button class="btn btn-default btn-circle"><i class="glyphicon glyphicon-refresh"></i></button>
+      </div>
+    </div>
+  </div>
+{% highlight html %}
+<div class="section">
+  <h2>Orders</h2>
+  <div class="section-tools">
+    <button class="btn btn-primary btn-circle"><i class="glyphicon glyphicon-plus"></i></button>
+    <button class="btn btn-default btn-circle"><i class="glyphicon glyphicon-refresh"></i></button>
+  </div>
+</div>
+{% endhighlight %}
+
+
+  <h2 id="section-right-alignment">Right alignment</h2>
+  <p>You can put your actions to right side.</p>
+  
+  <div class="bs-example">
+    <div class="section">
+      <h2>Orders</h2>
+      <div class="section-tools pull-right">
+        <button class="btn btn-success btn-circle"><i class="glyphicon glyphicon-refresh"></i></button>
+        <button class="btn btn-default btn-circle"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </div>
+  </div>
+{% highlight html %}
+<div class="section">
+  <h2>...</h2>
+  <div class="section-actions pull-right">
+    ...
+  </div>
+</div>
+{% endhighlight %}
