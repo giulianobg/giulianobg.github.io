@@ -982,6 +982,62 @@ hr {
   overflow: visible;
   clip: auto;
 }
+.text-green {
+  color: #5cb85c;
+}
+.text-red {
+  color: #d9534f;
+}
+.text-orange {
+  color: #d96a3c;
+}
+.text-yellow {
+  color: #f0ad4e;
+}
+.text-blue {
+  color: #428bca;
+}
+.text-light-blue {
+  color: #5bc0de;
+}
+.text-purple {
+  color: #715a71;
+}
+.text-dark {
+  color: #555;
+}
+.bg-green {
+  color: #fff;
+  background-color: #5cb85c;
+}
+.bg-red {
+  color: #fff;
+  background-color: #d9534f;
+}
+.bg-orange {
+  color: #fff;
+  background-color: #d96a3c;
+}
+.bg-yellow {
+  color: #fff;
+  background-color: #f0ad4e;
+}
+.bg-blue {
+  color: #fff;
+  background-color: #428bca;
+}
+.bg-light-blue {
+  color: #fff;
+  background-color: #5bc0de;
+}
+.bg-purple {
+  color: #fff;
+  background-color: #715a71;
+}
+.bg-dark {
+  color: #fff;
+  background-color: #555;
+}
 h1,
 h2,
 h3,
@@ -2058,36 +2114,6 @@ pre code {
 }
 .text-xl {
   font-size: 2em;
-}
-.green {
-  color: #5cb85c;
-}
-.red {
-  color: #d9534f;
-}
-.orange {
-  color: #d9534f;
-}
-.yellow {
-  color: #f0ad4e;
-}
-.blue {
-  color: #428bca;
-}
-.purple {
-  color: #428bca;
-}
-.green-bg {
-  background-color: #5cb85c;
-}
-.red-bg {
-  background-color: #d9534f;
-}
-.orange-bg {
-  background-color: #f0ad4e;
-}
-.yellow-bg {
-  background-color: #f0ad4e;
 }
 table {
   background-color: transparent;
@@ -4518,6 +4544,61 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .breadcrumb > .active {
   color: #777;
+}
+.section {
+  height: 70px;
+}
+.section h1,
+.section .h1,
+.section h2,
+.section .h2,
+.section h3,
+.section .h3,
+.section h4,
+.section .h4,
+.section h5,
+.section .h5,
+.section h6,
+.section .h6 {
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.section h1 small,
+.section .h1 small,
+.section h2 small,
+.section .h2 small,
+.section h3 small,
+.section .h3 small,
+.section h4 small,
+.section .h4 small,
+.section h5 small,
+.section .h5 small,
+.section h6 small,
+.section .h6 small,
+.section h1 .small,
+.section .h1 .small,
+.section h2 .small,
+.section .h2 .small,
+.section h3 .small,
+.section .h3 .small,
+.section h4 .small,
+.section .h4 .small,
+.section h5 .small,
+.section .h5 .small,
+.section h6 .small,
+.section .h6 .small {
+  font-size: 65%;
+}
+.section .section-tools button,
+.section .section-tools a.btn {
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.section:after {
+  clear: both;
 }
 .pagination {
   display: inline-block;
