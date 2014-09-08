@@ -29,29 +29,29 @@ body {
 }
 
 /* Outline button for use within the docs */
-.btn-outline {
+.bs-btn-outline {
   color: #563d7c;
   background-color: transparent;
   border-color: #563d7c;
 }
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active {
+.bs-btn-outline:hover,
+.bs-btn-outline:focus,
+.bs-btn-outline:active {
   color: #fff;
-  background-color: #563d7c;
-  border-color: #563d7c;
+  background-color: #e9573f;
+  border-color: #e9573f;
 }
 
 /* Inverted outline button (white on dark) */
-.btn-outline-inverse {
+.bs-btn-outline-inverse {
   color: #fff;
   background-color: transparent;
-  border-color: #cdbfe3;
+  border-color: #f5f7fa;
 }
-.btn-outline-inverse:hover,
-.btn-outline-inverse:focus,
-.btn-outline-inverse:active {
-  color: #563d7c;
+.bs-btn-outline-inverse:hover,
+.bs-btn-outline-inverse:focus,
+.bs-btn-outline-inverse:active {
+  color: #e9573f;
   text-shadow: none;
   background-color: #fff;
   border-color: #fff;
@@ -64,7 +64,7 @@ body {
   color: #fff;
   text-align: center;
   cursor: default;
-  background-color: #563d7c;
+  background-color: #e9573f;
   border-radius: 15%;
 }
 .bs-docs-booticon-sm {
@@ -80,12 +80,12 @@ body {
   line-height: 140px;
 }
 .bs-docs-booticon-inverse {
-  color: #563d7c;
+  color: #e9573f;
   background-color: #fff;
 }
 .bs-docs-booticon-outline {
   background-color: transparent;
-  border: 1px solid #cdbfe3;
+  border: 1px solid #f5f7fa;
 }
 
 
@@ -106,24 +106,24 @@ body {
 .bs-docs-nav .navbar-brand,
 .bs-docs-nav .navbar-nav > li > a {
   font-weight: 500;
-  color: #563d7c;
+  color: #e9573f;
 }
 .bs-docs-nav .navbar-nav > li > a:hover,
 .bs-docs-nav .navbar-nav > .active > a,
 .bs-docs-nav .navbar-nav > .active > a:hover {
-  color: #463265;
+  color: #963829;
   background-color: #f9f9f9;
 }
 .bs-docs-nav .navbar-toggle .icon-bar {
-  background-color: #563d7c;
+  background-color: #e9573f;
 }
 .bs-docs-nav .navbar-header .navbar-toggle {
   border-color: #fff;
 }
 .bs-docs-nav .navbar-header .navbar-toggle:hover,
 .bs-docs-nav .navbar-header .navbar-toggle:focus {
-  background-color: #f9f9f9;
-  border-color: #f9f9f9;
+  background-color: #f5f7fa;
+  border-color: #f5f7fa;
 }
 
 
@@ -206,15 +206,15 @@ body {
 .bs-docs-header {
   position: relative;
   padding: 30px 15px;
-  color: #cdbfe3;
+  color: #f5f7fa;
   text-align: center;
   text-shadow: 0 1px 0 rgba(0,0,0,.1);
-  background-color: #6f5499;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#563d7c), to(#6f5499));
-  background-image: -webkit-linear-gradient(top, #563d7c 0%, #6f5499 100%);
-  background-image:      -o-linear-gradient(top, #563d7c 0%, #6f5499 100%);
-  background-image:         linear-gradient(to bottom, #563d7c 0%, #6f5499 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
+  background-color: #e9573f;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fc6e51), to(#e9573f));
+  background-image: -webkit-linear-gradient(top, #fc6e51 0%, #e9573f 100%);
+  background-image:      -o-linear-gradient(top, #fc6e51 0%, #e9573f 100%);
+  background-image:         linear-gradient(to bottom, #fc6e51 0%, #e9573f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FC6E51', endColorstr='#E9573F', GradientType=0);
   background-repeat: repeat-x;
 }
 
@@ -235,7 +235,7 @@ body {
 .bs-docs-masthead .version {
   margin-top: -15px;
   margin-bottom: 30px;
-  color: #9783b9;
+  color: #f5f7fa;
 }
 .bs-docs-masthead .btn {
   width: 100%;
