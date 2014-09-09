@@ -58,4 +58,34 @@
   ...
 </ul>
 {% endhighlight %}
+
+  <h4>Contextual states</h4>
+  <p>Can be used contextual states to set diferent badge colors, like <code>.badge-success</code>, <code>.badge-info</code>, <code>.badge-warning</code> and <code>.badge-danger</code>.</p>
+  <div class="bs-example">
+    <ul class="nav nav-pills" role="tablist">
+      <li role="presentation"><a href="#">Errors <span class="badge badge-danger">42</span></a></li>
+      <li role="presentation"><a href="#">Messages <span class="badge badge-info">3</span></a></li>
+      <li role="presentation"><a href="#">Alerts <span class="badge badge-warning">9</span></a></li>
+    </ul>
+  </div>
+{% highlight html %}
+<ul class="nav nav-pills nav-stacked" role="tablist">
+  <li role="presentation">
+    <a href="#">
+      Errors <span class="badge badge-danger">42</span>
+    </a>
+  </li>
+  <li role="presentation">
+    <a href="#">
+      Messages <span class="badge badge-info">3</span>
+    </a>
+  </li>
+  <li role="presentation">
+    <a href="#">
+      Alerts <span class="badge badge-warning">9</span>
+    </a>
+  </li>
+  ...
+</ul>
+{% endhighlight %}
 </div>

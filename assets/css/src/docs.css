@@ -30,9 +30,9 @@ body {
 
 /* Outline button for use within the docs */
 .bs-btn-outline {
-  color: #563d7c;
+  color: #e9573f;
   background-color: transparent;
-  border-color: #563d7c;
+  border-color: #e9573f;
 }
 .bs-btn-outline:hover,
 .bs-btn-outline:focus,
@@ -560,19 +560,19 @@ body {
 .bs-docs-sidebar .nav > li > a:hover,
 .bs-docs-sidebar .nav > li > a:focus {
   padding-left: 19px;
-  color: #563d7c;
+  color: #963829;
   text-decoration: none;
   background-color: transparent;
-  border-left: 1px solid #563d7c;
+  border-left: 1px solid #963829;
 }
 .bs-docs-sidebar .nav > .active > a,
 .bs-docs-sidebar .nav > .active:hover > a,
 .bs-docs-sidebar .nav > .active:focus > a {
   padding-left: 18px;
   font-weight: bold;
-  color: #563d7c;
+  color: #963829;
   background-color: transparent;
-  border-left: 2px solid #563d7c;
+  border-left: 2px solid #963829;
 }
 
 /* Nav: second level (shown on .active) */
@@ -611,7 +611,7 @@ body {
 }
 .back-to-top:hover,
 .bs-docs-theme-toggle:hover {
-  color: #563d7c;
+  color: #963829;
   text-decoration: none;
 }
 .bs-docs-theme-toggle {
@@ -787,14 +787,15 @@ h1[id] {
 }
 
 /* Docs colors */
+/* Noy purple anymore, but tomato :) */
 .color-swatches .bs-purple {
-  background-color: #563d7c;
+  background-color: #963829;
 }
 .color-swatches .bs-purple-light {
-  background-color: #c7bfd3;
+  background-color: #e9573f;
 }
 .color-swatches .bs-purple-lighter {
-  background-color: #e5e1ea;
+  background-color: #fc6e51;
 }
 .color-swatches .bs-gray {
   background-color: #f9f9f9;
@@ -1274,7 +1275,7 @@ h1[id] {
 }
 .bs-glyphicons li:hover {
   color: #fff;
-  background-color: #563d7c;
+  background-color: #e9573f;
 }
 
 @media (min-width: 768px) {
@@ -1423,7 +1424,7 @@ h1[id] {
   width: 100%;
   margin-bottom: 15px;
   overflow: hidden;
-  color: #563d7c;
+  color: #e9573f;
   background-color: #f9f9f9;
   border-radius: 4px;
 }
@@ -1438,7 +1439,7 @@ h1[id] {
 }
 .bs-brand-logos .inverse {
   color: #fff;
-  background-color: #563d7c;
+  background-color: #e9573f;
 }
 .bs-brand-item .svg {
   width: 144px;
